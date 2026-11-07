@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鲸伴 SkyPet</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">陪伴</string>
+    <string name="nav_packs">陪伴包</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">桌宠陪伴</string>
+    <string name="notif_title">鲸伴在陪你</string>
+    <string name="notif_action_rest">歇一会儿</string>
+    <string name="notif_action_stop">收起桌宠</string>
+</resources>

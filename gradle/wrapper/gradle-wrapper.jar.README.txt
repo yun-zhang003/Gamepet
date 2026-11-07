@@ -1,0 +1,22 @@
+gradle-wrapper.jar — UNVERIFIED PLACEHOLDER
+=============================================
+
+This file is intentionally NOT a real Gradle wrapper JAR. This machine has no
+Gradle / Android SDK installed, so a legitimate `gradle-wrapper.jar` binary
+cannot be generated here.
+
+What IS provided and correct:
+  - gradle/wrapper/gradle-wrapper.properties        (Gradle 8.9 distribution URL)
+  - gradle/wrapper/gradle-wrapper.properties.template (same content, for Studio)
+  - gradlew / gradlew.bat                            (standard Gradle 8.9 scripts)
+
+To materialise a real wrapper JAR (requires a Gradle install, e.g. via Android
+Studio or a standalone Gradle 8.9 on PATH):
+
+    gradle wrapper --gradle-version 8.9
+
+Android Studio can also "generate wrapper" / auto-fix on first Sync.
+
+Per CONTRACT §2.5, the wrapper JAR is a binary that must be produced by Gradle,
+so its validity is explicitly UNVERIFIED here. Reviewer must not treat the
+missing JAR as a compile pass.

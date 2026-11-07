@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Transparent, no ActionBar theme. Window background is CreamWhite from Theme.kt. -->
+    <style name="Theme.SkyPet" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/cream_white</item>
+        <item name="android:navigationBarColor">@color/cream_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/cream_white</item>
+    </style>
+</resources>

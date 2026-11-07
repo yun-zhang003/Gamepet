@@ -1,0 +1,17 @@
+# Android and Gradle generated files
+.gradle/
+.kotlin/
+**/build/
+local.properties
+
+# IDE and operating system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local signing material
+*.jks
+*.keystore
+*.pem
+*.p12

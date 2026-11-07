@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fallback ARGB values aligned with ui/Theme.kt (UiColors). Kept in sync with UI-SPEC §1. -->
+    <color name="mist_blue">#FFB8D7E8</color>
+    <color name="dress_blue">#FF4778A8</color>
+    <color name="cream_white">#FFFFF9EE</color>
+    <color name="soft_pink">#FFF7E4E8</color>
+    <color name="sea_salt_blue">#FF88BACB</color>
+    <color name="ink_blue">#FF243E57</color>
+    <color name="muted_ink">#FF53697B</color>
+    <color name="line_blue">#FFD3E0E4</color>
+    <color name="paper_white">#FFFFFFFF</color>
+</resources>
